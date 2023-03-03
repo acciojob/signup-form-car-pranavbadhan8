@@ -10,7 +10,7 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-	<form method="post">
+<!-- 	<form method="post">
 		<label for="name">Name*
 		<input type="text" id="name" name="name" placeholder="Name" required></label>
 		<br><br>
@@ -46,8 +46,45 @@
 		<input type="checkbox" id="checkbox" name="Checkbox" required>
 		<br><br>
 		<button ID="submit">Submit button</button>
+	</form> -->
+<form method="post">
+		<div>
+			<label for="name">Name*</label>
+			<input type="text" id="name" required>
+		</div>
+		<div>
+			<label for="email">Email*</label>
+			<input type="email" id="email" required>
+		</div>
+		<div>
+			<label for="gender">Gender*</label>
+			<input type="radio" id="gender" name="gender" required>Male
+			<input type="radio" id="gender" name="gender" required>Female
+		</div>
+		<div>
+			<label for="cars">Car Brands</label>
+			<select id="cars">
+				<option>Bmw</option>
+				<option>Audi</option>
+				<option>Mercedez</option>
+			</select>
+		</div>
+		<div>
+			<label for="age">Age*</label>
+			<input type="number" id="age" required>
+		</div>
+		<div>
+			<label for="dob">DOB*</label>
+			<input type="date" id="dob" required>
+		</div>
+		<div>
+			<label for="password">Password*</label>
+			<input type="password" id="password" required>
+		</div>
+		<div>
+			<button type="submit">Submit</button>
+		</div>
 	</form>
-
 </body>
 
 </html>
